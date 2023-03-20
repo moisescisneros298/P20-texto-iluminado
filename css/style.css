@@ -29,5 +29,14 @@ h2 span {
 }
 h2:hover span {
   color: #fff;
-  text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 80px #fff, 0 0 120px #fff, 0 0 180px #fff;
+}
+h2:hover span:nth-child(1) {
+  margin-right: 10px;
+}
+h2:hover span:nth-child(1)::after {
+  content: "";
+}
+h2:hover span:nth-child(2) {
+  margin-left: 40px;
 }/*# sourceMappingURL=style.css.map */
